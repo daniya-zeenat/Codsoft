@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Sneakers</h1>
+        </div>
+        <div class="side2">
+            <img src="https://wallpaperaccess.com/full/2884467.jpg" width="500">
+            <img src=
+"https://wallpaperaccess.com/full/1232169.jpg"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="About">
+        <div class="content">
+            <div class="title">
+                <span>Sneaker History </span></div>
+                <h2>
+                    <ul>
+                   <li> 1916: Keds, the world’s first “official” sneaker was born, leading the way for a new era of footwear.</li>
+                    <li>1970s and 1980s: Sneakers became a fashion craze with the rise of iconic brands like Nike and Adidas and influential celebrity endorsements. 🎤⛹️‍♂️</li>
+                <li>Today: The sneaker industry is a global phenomenon, with innovation, technology, and sustainability driving further progress.</li>
+                </ul>
+            </h2>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            <b>Nike</b>
+                        </a>
+                    </div>
+                    <p>
+                        Nike is the most popular sneaker brand among U.S. consumers, with 64 percent of respondents who know the brand actually liking it.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          <b>Adidas</b>  
+                        </a>
+                    </div>
+                    <p>
+                    Adidas also enjoys a significant preference but lags behind Nike. Adidas has a wide range of sneakers.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           <b>New Balance</b> 
+                        </a>
+                    </div>
+                    <p>
+                        One of the most popular brands on the expensive side.New balance has a luxury range of sneakers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <div class="content">
+            <div class="title"><span>To Know more about Sneakers Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="input2">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all the Sneaker heads out there!
+                            We welcome you to the platform where we
+                            consistently strive to offer the best 
+                            of Information about sneakers. This platform has been 
+                            designed for every sneaker head wishing to 
+                            expand their knowledge, share their 
+                            knowledge.Thank you for choosing 
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Thank you for visiting!
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
